@@ -1,0 +1,271 @@
+
+@media (max-width: 768px) {
+    body{
+        
+    margin:0;
+    }
+    
+        #big1{
+        display:flex;
+        
+        align-items: center;
+        
+        width: 100%;
+        height: 300px;
+        max-height: 300px;
+        background-color: antiquewhite;
+        
+       }
+    
+    #first{
+    width: 350px;
+    height: 100%;
+    
+    }
+    #first p{
+        padding: 50% 15%;
+        
+        font-size: 1.8vw; 
+    }
+    #x h1{
+        padding-top: 10%;
+        padding-left: 25%;
+        font-size: 2.4vw;
+    }
+    #x{
+        width:200px
+    }
+    
+    #photo1{
+        padding-top: 2%;
+        
+        display:block;
+        width:120px;
+        height:120px;
+    }
+    .all{
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    #two {
+        
+        height:100%;
+        width: 30%;
+        font-size: 1.5vw;
+        background-color: rgb(64, 102, 102);
+        
+    
+    }
+    #twoins{
+        padding-top: 180px;
+        padding-left: 10px;
+    }
+    #three{
+        max-width: 60%;
+        max-height: 100%;
+        width: 60%;
+        height:100%;
+        background-color: rgb(67, 122, 122);
+    }
+    #three p{
+        padding:50px;
+        font-size: 1.7vw;
+       
+    }
+    
+    
+    #four p{
+        padding: 30px;
+        font-size: 1.6vw;
+        width: 50px;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #bigsecond{
+        display: flex;
+        height: 500px;
+        max-height: 500px;
+    }
+    
+    
+    #big2{
+            
+        display: inline-flex;
+        position: relative;
+        width: 70%;
+        max-width: 70%;
+        height:70%;
+        margin:0 ;
+        padding-left: 0;
+        
+    }
+    
+    
+    #big3{
+        display: flex;
+        flex-direction: column;
+        height: 100%; 
+        width:40%;
+    }
+    #four,#five{
+        box-sizing: border-box;
+        width:100%;
+        height: 50%;
+        background-color:rgb(185, 94, 94);
+    }
+    #five{
+        background-color: aqua;
+    }
+    #five p{
+        padding: 20px;
+        font-size:2.9vw;
+    }
+    
+    #six{
+        position: absolute; 
+        top: 100%; 
+        width:100%;
+       max-height:150px;
+        background-color: cadetblue;
+        height:150px;
+        font-size:1.7vw;
+    }
+    
+    }
+    
+    @media (min-width: 768px) {
+        body{
+            margin: 0;
+       
+        }
+        #first p {
+          
+        
+        
+            font-size: 1.0vw; /* Змінюємо розмір шрифту при розширенні екрану до 1200px */
+           
+        }
+      
+        #big1{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            background-color: antiquewhite;
+            
+        }
+        
+        #first{
+        width: 250px;
+        height: 250px;
+        
+        }
+        #first p{
+            padding-top: 20%;
+            padding-right: 25%;
+            font-size: 1.0vw; 
+        }
+        #x h1{
+            padding-top: 10%;
+            padding-left: 25%;
+            font-size: 1.7vw;
+        }
+        #x{
+            width:200px
+        }
+        
+        #photo1{
+            padding-top: 2%;
+            
+            display:block;
+            width:250px;
+            height:180px;
+        }
+        .all{
+            
+            vertical-align: top;
+        }
+        
+        #two {
+           margin: 0%;
+            height:700px;
+            width: 30%;
+            font-size: 1.0vw;
+            box-sizing: border-box;
+            display: inline-block;
+            max-width: 30%;
+            background-color:darkgrey;
+    
+        }
+        #twoins{
+            display: inline-block;
+            padding-top: 50%;
+            padding-left: 15%;
+        }
+        
+        #big2{
+            
+            display: inline-flex;
+            position: relative;
+            width: 70%;
+            max-width: 70%;
+            height:700px;
+            margin:0 ;
+            padding-left: 0;
+            
+        }
+        #three{
+            
+            width:60%;
+            height: 500px; 
+            background-color:rgb(99, 91, 91);
+        }
+        #three p{
+            padding-top:20%;
+            padding-left: 10%;
+            
+            
+        }
+        #big3{
+            display: flex;
+            flex-direction: column;
+            height: 500px; 
+            width:40%;
+        }
+        #four,#five{
+            box-sizing: border-box;
+            width:100%;
+            height: 50%;
+            background-color:rgb(185, 94, 94);
+        }
+        #five{
+            background-color: aqua;
+        }
+        #four p{
+            
+            
+            font-size: 1.0vw;
+        }
+        #six{
+            position: absolute; 
+            top: 72%; 
+            width:100%;
+            height:200px;
+            background-color: cadetblue;
+          
+        }
+        #bigsecond{
+            display: flex;
+        }
+    }
